@@ -236,7 +236,7 @@ const EducationItservices = () => {
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://greatodeal.com/focus-areas/education" />
-  <meta property="og:image" content="https://greatodeal.com/public/images/education.png" />
+  <meta property="og:image" content="https://greatodeal.com/images/education.png" />
   <meta property="og:image:alt" content="Education IT Services & EdTech Solutions by Greatodeal" />
 
   {/* Twitter Card */}
@@ -246,7 +246,7 @@ const EducationItservices = () => {
     name="twitter:description"
     content="Top Education IT & EdTech Software Company in Lahore. LMS, SIS, AI learning platforms, VR learning, mobile learning, and complete education transformation solutions."
   />
-  <meta name="twitter:image" content="https://greatodeal.com/public/images/education.png" />
+  <meta name="twitter:image" content="https://greatodeal.com/images/education.png" />
   <meta name="twitter:image:alt" content="Education IT Solutions - Greatodeal" />
 
   {/* Structured Data (JSON-LD) */}
@@ -257,13 +257,13 @@ const EducationItservices = () => {
         "@type": "EducationalOrganization",
         "name": "Education IT Services & EdTech Solutions",
         "url": "https://greatodeal.com/focus-areas/education",
-        "image": "https://greatodeal.com/public/images/education.png",
+        "image": "https://greatodeal.com/images/education.png",
         "description": "Greatodeal provides innovative Education IT solutions including LMS development, SIS systems, virtual classrooms, campus management, AI-powered learning, analytics platforms, and VR/AR training tools.",
         "provider": {
           "@type": "Organization",
           "name": "Greatodeal",
           "url": "https://greatodeal.com",
-          "logo": "https://greatodeal.com/public/images/education.png",
+          "logo": "https://greatodeal.com/images/education.png",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Shadman 2, Gulberg",
@@ -324,7 +324,7 @@ const EducationItservices = () => {
               <div className="relative w-full max-w-md sm:max-w-lg lg:max-w-full h-[300px] sm:h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
                 <img
                   className="w-full h-full object-cover"
-                  src='../public/images/education.png'
+                  src='/images/education.png'
                   poster="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&h=600&fit=crop"
                 />
                  
