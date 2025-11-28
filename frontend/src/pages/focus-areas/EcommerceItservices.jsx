@@ -231,7 +231,7 @@ const EcommerceItservices = () => {
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://greatodeal.com/focus-areas/ecommerce" />
-  <meta property="og:image" content="https://greatodeal.com/public/images/shopping.mp4" />
+  <meta property="og:image" content="https://greatodeal.com/images/shopping.mp4" />
   <meta property="og:image:alt" content="E-commerce IT Services & Solutions by Greatodeal" />
 
   {/* Twitter Card */}
@@ -241,7 +241,7 @@ const EcommerceItservices = () => {
     name="twitter:description"
     content="Greatodeal builds secure and scalable e-commerce software — storefronts, AI personalization, analytics, cloud commerce, payment systems and omnichannel platforms."
   />
-  <meta name="twitter:image" content="https://greatodeal.com/public/images/shopping.mp4" />
+  <meta name="twitter:image" content="https://greatodeal.com/images/shopping.mp4" />
   <meta name="twitter:image:alt" content="E-commerce Solutions by Greatodeal" />
 
   {/* Local SEO Targeting */}
@@ -258,7 +258,7 @@ const EcommerceItservices = () => {
         "@type": "LocalBusiness",
         "name": "E-commerce IT Services and Solutions",
         "url": "https://greatodeal.com/focus-areas/ecommerce",
-        "image": "https://greatodeal.com/public/images/shopping.mp4",
+        "image": "https://greatodeal.com/images/shopping.mp4",
         "description": "Greatodeal delivers cutting-edge e-commerce software solutions including storefront development, payment gateway integration, AI personalization, analytics, omnichannel systems, and cloud-based e-commerce platforms.",
         "address": {
           "@type": "PostalAddress",
@@ -271,7 +271,7 @@ const EcommerceItservices = () => {
           "@type": "Organization",
           "name": "Greatodeal",
           "url": "https://greatodeal.com",
-          "logo": "https://greatodeal.com/public/images/shopping.mp4"
+          "logo": "https://greatodeal.com/images/shopping.mp4"
         },
         "areaServed": ["Pakistan", "Netherlands", "UAE", "Worldwide"],
         "serviceType": [
@@ -322,7 +322,7 @@ const EcommerceItservices = () => {
                   muted
                   playsInline
                   className="w-full h-full object-cover"
-                  src='../public/images/shopping.mp4'
+                  src='/images/shopping.mp4'
                   poster="https://images.unsplash.com/photo-1556742524-750f2bb6e36f?w=600&h=600&fit=crop"
                 >
                   Your browser does not support the video tag.
