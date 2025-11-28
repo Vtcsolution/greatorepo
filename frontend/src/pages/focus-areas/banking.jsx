@@ -225,7 +225,7 @@ const Banking = () => {
       />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://greatodeal.com/focus-areas/banking" />
-      <meta property="og:image" content="https://greatodeal.com/public/images/Banking.png" />
+      <meta property="og:image" content="https://greatodeal.com/images/Banking.png" />
       <meta property="og:image:alt" content="Banking IT Services & Solutions by Greatodeal" />
 
       {/* Twitter Card */}
@@ -235,7 +235,7 @@ const Banking = () => {
         name="twitter:description"
         content="Greatodeal delivers secure and scalable banking IT solutions including core banking, digital portals, mobile apps, CRM, ATM software, and AI-powered tools to transform your banking operations and customer experience."
       />
-      <meta name="twitter:image" content="https://greatodeal.com/public/images/Banking.png" />
+      <meta name="twitter:image" content="https://greatodeal.com/images/Banking.png" />
       <meta name="twitter:image:alt" content="Banking IT Services & Solutions by Greatodeal" />
 
       {/* Structured Data (JSON-LD) */}
@@ -246,13 +246,13 @@ const Banking = () => {
             "@type": "FinancialService",
             "name": "Banking IT Services & Solutions",
             "url": "https://greatodeal.com/focus-areas/banking",
-            "image": "https://greatodeal.com/public/images/Banking.png",
+            "image": "https://greatodeal.com/images/Banking.png",
             "description": "Greatodeal provides secure and scalable banking IT solutions including core banking systems, digital banking portals, mobile apps, CRM, ATM software, and AI-powered investment management tools to enhance customer experience and streamline operations.",
             "provider": {
               "@type": "Organization",
               "name": "Greatodeal",
               "url": "https://greatodeal.com",
-              "logo": "https://greatodeal.com/public/images/Banking.png"
+              "logo": "https://greatodeal.com/images/Banking.png"
             }
           }
         `}
@@ -295,7 +295,7 @@ const Banking = () => {
               <div className="relative w-full max-w-md sm:max-w-lg lg:max-w-full h-[300px] sm:h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
                <img
       className="w-full h-full object-cover"
-      src='../public/images/Banking.png'
+      src='/images/Banking.png'
       alt="Banking illustration"
     />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#1C2526]/50 via-transparent to-transparent"></div>
