@@ -251,7 +251,7 @@ const ApiDevelopment = () => {
       />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://greatodeal.com/solutions/api_development" />
-      <meta property="og:image" content="https://greatodeal.com/public/images/api_development.jpg" />
+      <meta property="og:image" content="https://greatodeal.com/images/api_development.jpg" />
       <meta property="og:image:alt" content="API Development & Integration Services by Greatodeal" />
 
       {/* Twitter Card */}
@@ -261,7 +261,7 @@ const ApiDevelopment = () => {
         name="twitter:description"
         content="Connect your systems and automate workflows with Greatodeal's API development services. We build RESTful, GraphQL, and cloud-based APIs for secure, scalable, and high-performance integrations."
       />
-      <meta name="twitter:image" content="https://greatodeal.com/public/images/api_development.jpg" />
+      <meta name="twitter:image" content="https://greatodeal.com/images/api_development.jpg" />
       <meta name="twitter:image:alt" content="API Development & Integration Services by Greatodeal" />
 
       {/* Structured Data (JSON-LD) */}
@@ -272,13 +272,13 @@ const ApiDevelopment = () => {
             "@type": "Service",
             "name": "API Development & Integration Services",
             "url": "https://greatodeal.com/solutions/api_development",
-            "image": "https://greatodeal.com/public/images/api_development.jpg",
+            "image": "https://greatodeal.com/images/api_development.jpg",
             "description": "Greatodeal delivers secure, scalable, and high-performance API development and integration services including RESTful, GraphQL, microservices, and third-party API integrations to connect systems and automate workflows.",
             "provider": {
               "@type": "Organization",
               "name": "Greatodeal",
               "url": "https://greatodeal.com",
-              "logo": "https://greatodeal.com/public/images/api_development.jpg"
+              "logo": "https://greatodeal.com/images/api_development.jpg"
             }
           }
         `}
@@ -323,7 +323,7 @@ Our API development and integration services help organizations connect systems,
               <div className="relative w-full max-w-md sm:max-w-lg lg:max-w-full h-[300px] sm:h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
                 <img
                   className="w-full h-full object-cover"
-                  src="../public/images/api_development.jpg"
+                  src="/images/api_development.jpg"
                     poster="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&h=600&fit=crop"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#121212]/40 via-transparent to-transparent"></div>
@@ -503,11 +503,11 @@ Our API development and integration services help organizations connect systems,
 
             {/* Main Image - Right Column */}
             <div className="relative order-first lg:order-last">
-              <img
-                src="../public/images/api_testing.PNG"
-                alt="API integration diagram"
-                className="rounded-2xl shadow-2xl w-full h-[400px] sm:h-[500px] lg:h-[600px] object-cover"
-              />
+             <img
+  src="/images/api_testing.png"
+  alt="API integration diagram"
+  className="rounded-2xl shadow-2xl w-full h-[400px] sm:h-[500px] lg:h-[600px] object-cover"
+/>
               <div className="absolute inset-0 bg-gradient-to-t from-[#121212]/20 via-transparent to-transparent rounded-2xl" />
             </div>
           </div>
