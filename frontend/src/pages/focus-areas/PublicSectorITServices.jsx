@@ -246,7 +246,7 @@ const PublicSectorItservices = () => {
   />
   <meta
     property="og:image"
-    content="https://greatodeal.com/public/images/Technology_Construction.mp4"
+    content="https://greatodeal.com/images/Technology_Construction.mp4"
   />
   <meta
     property="og:image:alt"
@@ -265,7 +265,7 @@ const PublicSectorItservices = () => {
   />
   <meta
     name="twitter:image"
-    content="https://greatodeal.com/public/images/Technology_Construction.mp4"
+    content="https://greatodeal.com/images/Technology_Construction.mp4"
   />
 
   {/* JSON-LD Structured Data */}
@@ -284,14 +284,14 @@ const PublicSectorItservices = () => {
         { "@type": "Country", "name": "United States" },
         "Worldwide"
       ],
-      "image": "https://greatodeal.com/public/images/Technology_Construction.mp4",
+      "image": "https://greatodeal.com/images/Technology_Construction.mp4",
       "publisher": {
         "@type": "Organization",
         "name": "Greatodeal",
         "url": "https://greatodeal.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://greatodeal.com/public/logo.png"
+          "url": "https://greatodeal.com/logo.png"
         },
         "address": {
           "@type": "PostalAddress",
@@ -348,7 +348,7 @@ const PublicSectorItservices = () => {
                   muted
                   playsInline
                   className="w-full h-full object-cover"
-                  src='../public/images/Technology_Construction.mp4'
+                  src='/images/Technology_Construction.mp4'
                   poster="https://images.unsplash.com/photo-1586771107445-d3ca5fb02e76?w=600&h=600&fit=crop"
                 >
                   Your browser does not support the video tag.
