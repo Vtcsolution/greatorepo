@@ -252,7 +252,7 @@ const ItInfrastructureServices = () => {
       />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://greatodeal.com/solutions/infrastructure" />
-      <meta property="og:image" content="https://greatodeal.com/public/images/infrastructure.PNG" />
+      <meta property="og:image" content="https://greatodeal.com/images/infrastructure.PNG" />
       <meta property="og:image:alt" content="IT Infrastructure Services by Greatodeal" />
 
       {/* Twitter Card */}
@@ -262,11 +262,11 @@ const ItInfrastructureServices = () => {
         name="twitter:description"
         content="Build secure, scalable, and high-availability IT infrastructure with Greatodeal. Cloud migration, network optimization, virtualization, and disaster recovery services."
       />
-      <meta name="twitter:image" content="https://greatodeal.com/public/images/infrastructure.PNG" />
+      <meta name="twitter:image" content="https://greatodeal.com/images/infrastructure.PNG" />
       <meta name="twitter:image:alt" content="IT Infrastructure Services by Greatodeal" />
 
       {/* Video Metadata for Social Sharing */}
-      <meta property="og:video" content="https://greatodeal.com/public/images/Globalization_Technology.mp4" />
+      <meta property="og:video" content="https://greatodeal.com/images/Globalization_Technology.mp4" />
       <meta property="og:video:type" content="video/mp4" />
       <meta property="og:video:width" content="1280" />
       <meta property="og:video:height" content="720" />
@@ -279,13 +279,13 @@ const ItInfrastructureServices = () => {
             "@type": "Service",
             "name": "IT Infrastructure Services",
             "url": "https://greatodeal.com/solutions/infrastructure",
-            "image": "https://greatodeal.com/public/images/infrastructure.PNG",
+            "image": "https://greatodeal.com/images/infrastructure.PNG",
             "description": "Reliable IT infrastructure services including cloud migration, network optimization, data center setup, virtualization, and disaster recovery to ensure business continuity.",
             "provider": {
               "@type": "Organization",
               "name": "Greatodeal",
               "url": "https://greatodeal.com",
-              "logo": "https://greatodeal.com/public/images/infrastructure.PNG"
+              "logo": "https://greatodeal.com/images/infrastructure.PNG"
             }
           }
         `}
