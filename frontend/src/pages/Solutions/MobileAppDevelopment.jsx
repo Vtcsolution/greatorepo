@@ -263,7 +263,7 @@ const MobileAppDevelopment = () => {
   />
   <meta
     property="og:image"
-    content="https://greatodeal.com/public/images/mobileapp.png"
+    content="https://greatodeal.com/images/mobileapp.png"
   />
   <meta
     property="og:image:alt"
@@ -287,13 +287,13 @@ const MobileAppDevelopment = () => {
   />
   <meta
     name="twitter:image"
-    content="https://greatodeal.com/public/images/mobileapp.png"
+    content="https://greatodeal.com/images/mobileapp.png"
   />
 
   {/* Extra fallback image */}
   <meta
     property="og:image:secure"
-    content="https://greatodeal.com/public/images/mobileservices.JPG"
+    content="https://greatodeal.com/images/mobileservices.JPG"
   />
 
   {/* Additional SEO Tags */}
@@ -335,7 +335,7 @@ We design and develop high-performance mobile applications that blend innovation
                          <div className="relative w-full max-w-md sm:max-w-lg lg:max-w-full h-[300px] sm:h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
                           <img
                  className="w-full h-full object-cover"
-                 src='../public/images/mobileapp.png'
+                 src='/images/mobileapp.png'
                  alt="Banking illustration"
                />
                            <div className="absolute inset-0 bg-gradient-to-t from-[#1C2526]/50 via-transparent to-transparent"></div>
@@ -512,11 +512,12 @@ We design and develop high-performance mobile applications that blend innovation
 
             {/* Main Image - Right Column */}
             <div className="relative order-first lg:order-last">
-              <img
-                src="../public/images/mobileservices.JPG"
-                alt="Team developing mobile apps"
-                className="rounded-2xl shadow-2xl w-full h-[400px] sm:h-[500px] lg:h-[600px] object-cover"
-              />
+             <img
+  src="/images/mobileservices.jpg"
+  alt="Team developing mobile apps"
+  className="rounded-2xl shadow-2xl w-full h-[400px] sm:h-[500px] lg:h-[600px] object-cover"
+/>
+
               <div className="absolute inset-0 bg-gradient-to-t from-[#101010]/20 via-transparent to-transparent rounded-2xl" /> {/* Adjusted gradient */}
             </div>
           </div>
