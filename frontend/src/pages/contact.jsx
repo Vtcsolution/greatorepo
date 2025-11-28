@@ -3,6 +3,7 @@ import { Mail, Phone, User, Building, MessageSquare, CheckCircle, ChevronDown, M
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import contact from '../assets/images/contact.jpg';
+import { Helmet } from "react-helmet-async";
 
 const Contact = () => {
   // Form States
