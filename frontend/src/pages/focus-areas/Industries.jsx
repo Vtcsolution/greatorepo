@@ -117,7 +117,7 @@ const Industries = () => {
       />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://greatodeal.com/industries" />
-      <meta property="og:image" content="https://greatodeal.com/public/images/industries_overview.jpg" />
+      <meta property="og:image" content="https://greatodeal.com/images/industries_overview.jpg" />
       <meta property="og:image:alt" content="Industries served by Greatodeal" />
 
       {/* Twitter Card */}
@@ -127,7 +127,7 @@ const Industries = () => {
         name="twitter:description"
         content="Greatodeal empowers multiple industries with secure, scalable, and future-ready digital solutions. Tailored services for banking, education, investment, oil & gas, public sector, logistics, construction, and e-commerce."
       />
-      <meta name="twitter:image" content="https://greatodeal.com/public/images/industries_overview.jpg" />
+      <meta name="twitter:image" content="https://greatodeal.com/images/industries_overview.jpg" />
       <meta name="twitter:image:alt" content="Industries served by Greatodeal" />
 
       {/* Structured Data (JSON-LD) */}
@@ -138,7 +138,7 @@ const Industries = () => {
             "@type": "Organization",
             "name": "Greatodeal",
             "url": "https://greatodeal.com",
-            "logo": "https://greatodeal.com/public/images/industries_overview.jpg",
+            "logo": "https://greatodeal.com/images/industries_overview.jpg",
             "sameAs": [],
             "department": [
               {
@@ -146,7 +146,7 @@ const Industries = () => {
                 "name": "Industries We Serve",
                 "url": "https://greatodeal.com/industries",
                 "description": "Greatodeal delivers secure, scalable, and future-ready digital solutions tailored for multiple industries including banking, education, investment, oil & gas, public sector, supply chain, construction, and e-commerce.",
-                "image": "https://greatodeal.com/public/images/industries_overview.jpg"
+                "image": "https://greatodeal.com/images/industries_overview.jpg"
               }
             ]
           }
