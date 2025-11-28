@@ -260,7 +260,7 @@ const SoftwareTesting = () => {
   {/* Social Preview Image */}
   <meta
     property="og:image"
-    content="https://greatodeal.com/public/images/softwaretesting.JPG"
+    content="https://greatodeal.com/images/softwaretesting.JPG"
   />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -268,7 +268,7 @@ const SoftwareTesting = () => {
   {/* Optional Video Metadata (Will not replace image preview but adds video support) */}
   <meta
     property="og:video"
-    content="https://greatodeal.com/public/images/software_design.mp4"
+    content="https://greatodeal.com/images/software_design.mp4"
   />
   <meta property="og:video:type" content="video/mp4" />
   <meta property="og:video:width" content="1280" />
@@ -286,11 +286,11 @@ const SoftwareTesting = () => {
   />
   <meta
     name="twitter:image"
-    content="https://greatodeal.com/public/images/softwaretesting.JPG"
+    content="https://greatodeal.com/images/softwaretesting.JPG"
   />
   <meta
     name="twitter:player"
-    content="https://greatodeal.com/public/images/software_design.mp4"
+    content="https://greatodeal.com/images/software_design.mp4"
   />
 </Helmet>
 
@@ -338,7 +338,7 @@ We design and develop custom software solutions precisely tailored to your busin
                   muted
                   playsInline
                   className="w-full h-full object-cover"
-                  src="../public/images/software_design.mp4"
+                  src="/images/software_design.mp4"
                   poster="https://images.unsplash.com/photo-1611162617210-7d673bf0f2a8?w=600&h=600&fit=crop"
                 >
                   Your browser does not support the video tag.
@@ -521,7 +521,7 @@ We design and develop custom software solutions precisely tailored to your busin
             {/* Main Image - Right Column */}
             <div className="relative order-first lg:order-last">
               <img
-                src="../public/images/softwaretesting.JPG"
+                src="/images/softwaretesting.jpg"
                 alt="Software testing dashboard"
                 className="rounded-2xl shadow-2xl w-full h-[400px] sm:h-[500px] lg:h-[600px] object-cover"
               />
