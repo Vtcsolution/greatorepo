@@ -252,7 +252,7 @@ const UiUxDesign = () => {
       />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://greatodeal.com/solutions/uiux" />
-      <meta property="og:image" content="https://greatodeal.com/public/images/uiux_design2.jpg" />
+      <meta property="og:image" content="https://greatodeal.com/images/uiux_design2.jpg" />
       <meta property="og:image:alt" content="UI/UX Design Services by Greatodeal" />
 
       {/* Twitter Card */}
@@ -262,7 +262,7 @@ const UiUxDesign = () => {
         name="twitter:description"
         content="Transform your user experience with Greatodeal. We provide UI/UX design services including wireframing, prototyping, usability testing, and responsive, accessible designs."
       />
-      <meta name="twitter:image" content="https://greatodeal.com/public/images/uiux_design2.jpg" />
+      <meta name="twitter:image" content="https://greatodeal.com/images/uiux_design2.jpg" />
       <meta name="twitter:image:alt" content="UI/UX Design Services by Greatodeal" />
 
       {/* Structured Data (JSON-LD) */}
@@ -273,13 +273,13 @@ const UiUxDesign = () => {
             "@type": "Service",
             "name": "UI/UX Design Services",
             "url": "https://greatodeal.com/solutions/uiux",
-            "image": "https://greatodeal.com/public/images/uiux_design2.jpg",
+            "image": "https://greatodeal.com/images/uiux_design2.jpg",
             "description": "Greatodeal delivers user-centered, responsive, and accessible UI/UX design services including wireframing, prototyping, visual design, and usability testing to enhance user engagement and conversions.",
             "provider": {
               "@type": "Organization",
               "name": "Greatodeal",
               "url": "https://greatodeal.com",
-              "logo": "https://greatodeal.com/public/images/uiux_design2.jpg"
+              "logo": "https://greatodeal.com/images/uiux_design2.jpg"
             }
           }
         `}
@@ -514,7 +514,7 @@ We create data-driven, user-focused designs that elevate your digital presence. 
       {/* Main Image - Right Column */}
       <div className="relative order-first lg:order-last flex items-center justify-center">
         <img
-          src='../public/images/uiux_design2.jpg'
+          src='/images/uiux_design2.jpg'
           alt="UI/UX design workspace"
           className="rounded-2xl shadow-2xl w-full h-[200px] sm:h-[500px] lg:h-[600px] object-contain bg-[#0b0b0b]"
         />
