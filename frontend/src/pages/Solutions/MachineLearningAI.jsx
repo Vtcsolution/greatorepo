@@ -253,7 +253,7 @@ const MachineLearningAI = () => {
       />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://greatodeal.com/solutions/machine_learning" />
-      <meta property="og:image" content="https://greatodeal.com/public/images/machine_learning.jpg" />
+      <meta property="og:image" content="https://greatodeal.com/images/machine_learning.jpg" />
       <meta property="og:image:alt" content="Agentic AI & Machine Learning Services by Greatodeal" />
 
       {/* Twitter Card */}
@@ -263,11 +263,11 @@ const MachineLearningAI = () => {
         name="twitter:description"
         content="Transform your business with AI & Machine Learning solutions from Greatodeal. Predictive analytics, NLP, computer vision, and AI automation for smarter decisions."
       />
-      <meta name="twitter:image" content="https://greatodeal.com/public/images/machine_learning.jpg" />
+      <meta name="twitter:image" content="https://greatodeal.com/images/machine_learning.jpg" />
       <meta name="twitter:image:alt" content="Agentic AI & Machine Learning Services by Greatodeal" />
 
       {/* Video Metadata for Social Sharing */}
-      <meta property="og:video" content="https://greatodeal.com/public/images/Artificial_Intelligence_Brain.mp4" />
+      <meta property="og:video" content="https://greatodeal.com/images/Artificial_Intelligence_Brain.mp4" />
       <meta property="og:video:type" content="video/mp4" />
       <meta property="og:video:width" content="1280" />
       <meta property="og:video:height" content="720" />
@@ -280,13 +280,13 @@ const MachineLearningAI = () => {
             "@type": "Service",
             "name": "Agentic AI & Machine Learning Services",
             "url": "https://greatodeal.com/solutions/machine_learning",
-            "image": "https://greatodeal.com/public/images/machine_learning.jpg",
+            "image": "https://greatodeal.com/images/machine_learning.jpg",
             "description": "Scalable AI & Machine Learning solutions by Greatodeal including predictive analytics, NLP, computer vision, recommendation systems, and automation to drive business outcomes.",
             "provider": {
               "@type": "Organization",
               "name": "Greatodeal",
               "url": "https://greatodeal.com",
-              "logo": "https://greatodeal.com/public/images/machine_learning.jpg"
+              "logo": "https://greatodeal.com/images/machine_learning.jpg"
             }
           }
         `}
@@ -336,7 +336,7 @@ We design and deliver Machine Learning and AI solutions that turn your data into
                   muted
                   playsInline
                   className="w-full h-full object-cover"
-                  src='../public/images/Artificial_Intelligence_Brain.mp4'
+                  src='/images/Artificial_Intelligence_Brain.mp4'
                   poster="https://images.unsplash.com/photo-1516321310762-479437144403?w=600&h=600&fit=crop"
                 >
                   Your browser does not support the video tag.
@@ -519,7 +519,7 @@ We design and deliver Machine Learning and AI solutions that turn your data into
             {/* Main Image - Right Column */}
             <div className="relative order-first lg:order-last">
               <img
-                src='../public/images/machine_learning.jpg'
+                src='/images/machine_learning.jpg'
                 alt="AI and machine learning workspace"
                 className="rounded-2xl shadow-2xl w-full h-[400px] sm:h-[500px] lg:h-[600px] object-cover"
               />
