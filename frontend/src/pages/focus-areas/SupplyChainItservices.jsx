@@ -243,7 +243,7 @@ const SupplyChainItservices = () => {
   />
   <meta
     property="og:image"
-    content="https://greatodeal.com/public/images/supplychain.png"
+    content="https://greatodeal.com/images/supplychain.png"
   />
   <meta
     property="og:image:alt"
@@ -262,7 +262,7 @@ const SupplyChainItservices = () => {
   />
   <meta 
     name="twitter:image" 
-    content="https://greatodeal.com/public/images/supplychain.png" 
+    content="https://greatodeal.com/images/supplychain.png" 
   />
 
   {/* JSON-LD Structured Data */}
@@ -274,7 +274,7 @@ const SupplyChainItservices = () => {
       "name": "Supply Chain & Logistics IT Services",
       "url": "https://greatodeal.com/focus-areas/logistics",
       "description": "Greatodeal builds intelligent supply chain software solutions including SCM visibility platforms, warehouse management systems, transportation management systems, blockchain traceability, IoT tracking, AI forecasting, and digital twin technology.",
-      "image": "https://greatodeal.com/public/images/supplychain.png",
+      "image": "https://greatodeal.com/images/supplychain.png",
       "areaServed": [
         { "@type": "City", "name": "Lahore" },
         { "@type": "Country", "name": "Pakistan" },
@@ -288,7 +288,7 @@ const SupplyChainItservices = () => {
         "url": "https://greatodeal.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://greatodeal.com/public/logo.png"
+          "url": "https://greatodeal.com/logo.png"
         },
         "address": {
           "@type": "PostalAddress",
@@ -334,7 +334,7 @@ const SupplyChainItservices = () => {
                 <img
                   
                   className="w-full h-full object-cover"
-                  src="../public/images/supplychain.png"
+                  src="/images/supplychain.png"
                   poster="https://images.unsplash.com/photo-1558618047-3c8c76ca4d0e?w=600&h=600&fit=crop"
                 />
                  
