@@ -245,11 +245,11 @@ const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   />
   <meta
     property="og:image"
-    content="https://greatodeal.com/public/images/construction_site.jpg"
+    content="https://greatodeal.com/images/construction_site.jpg"
   />
   <meta
     property="og:video"
-    content="https://greatodeal.com/public/images/construction_site.mp4"
+    content="https://greatodeal.com/images/construction_site.mp4"
   />
   <meta property="og:image:alt" content="Construction IT Solutions by Greatodeal" />
 
@@ -265,11 +265,11 @@ const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   />
   <meta 
     name="twitter:image" 
-    content="https://greatodeal.com/public/images/construction_site.jpg" 
+    content="https://greatodeal.com/images/construction_site.jpg" 
   />
   <meta 
     name="twitter:player" 
-    content="https://greatodeal.com/public/images/construction_site.mp4" 
+    content="https://greatodeal.com/images/construction_site.mp4" 
   />
 
   {/* JSON-LD Structured Data */}
@@ -281,7 +281,7 @@ const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
       "name": "Construction IT Services",
       "url": "https://greatodeal.com/focus-areas/construction",
       "description": "Greatodeal provides BIM platforms, IoT site monitoring, construction analytics, digital twin solutions, mobile field apps, and cloud-based project management tools for the construction industry.",
-      "image": "https://greatodeal.com/public/images/construction_site.jpg",
+      "image": "https://greatodeal.com/images/construction_site.jpg",
       "areaServed": [
         { "@type": "City", "name": "Lahore" },
         { "@type": "Country", "name": "Pakistan" },
@@ -295,7 +295,7 @@ const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
         "url": "https://greatodeal.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://greatodeal.com/public/logo.png"
+          "url": "https://greatodeal.com/logo.png"
         },
         "address": {
           "@type": "PostalAddress",
@@ -344,7 +344,7 @@ const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
                   muted
                   playsInline
                   className="w-full h-full object-cover"
-                  src='../public/images/construction_site.mp4'
+                  src='/images/construction_site.mp4'
                   poster="https://images.unsplash.com/photo-1503387762-592afbf1a3d7?w=600&h=600&fit=crop"
                 >
                   Your browser does not support the video tag.
