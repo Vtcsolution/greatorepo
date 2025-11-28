@@ -335,7 +335,7 @@ Reliable IT infrastructure engineered for availability, security, and efficiency
                   muted
                   playsInline
                   className="w-full h-full object-cover"
-                  src='../public/images/Globalization_Technology.mp4'
+                  src='/images/Globalization_Technology.mp4'
                   poster="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=600&fit=crop"
                 >
                   Your browser does not support the video tag.
@@ -517,11 +517,12 @@ Reliable IT infrastructure engineered for availability, security, and efficiency
 
             {/* Main Image - Right Column */}
             <div className="relative order-first lg:order-last">
-              <img
-                src="../public/images/infrastructure.PNG"
-                alt="IT infrastructure setup"
-                className="rounded-2xl shadow-2xl w-full h-[400px] sm:h-[500px] lg:h-[600px] object-cover"
-              />
+             <img
+  src="/images/infrastructure.png"  // lowercase
+  alt="IT infrastructure setup"
+  className="rounded-2xl shadow-2xl w-full h-[400px] sm:h-[500px] lg:h-[600px] object-cover"
+/>
+
               <div className="absolute inset-0 bg-gradient-to-t from-[#121212]/20 via-transparent to-transparent rounded-2xl" />
             </div>
           </div>
