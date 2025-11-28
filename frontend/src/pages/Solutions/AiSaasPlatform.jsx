@@ -235,55 +235,56 @@ const AiSaasPlatform = () => {
       {/* Hero Section */}
 
       <Helmet>
-      {/* Basic Meta Tags */}
-      <title>SaaS & AI-Powered Platform Development | Greatodeal</title>
-      <meta
-        name="description"
-        content="Greatodeal builds scalable SaaS and AI-powered platforms. We deliver intelligent solutions using machine learning, predictive analytics, NLP, computer vision, and automation for enhanced business performance and user experience."
-      />
-      <link rel="canonical" href="https://greatodeal.com/solutions/saasplatform" />
+        {/* Basic Meta Tags */}
+        <title>SaaS & AI-Powered Platform Development | Greatodeal</title>
+        <meta
+          name="description"
+          content="Greatodeal builds scalable SaaS and AI-powered platforms. We deliver intelligent solutions using machine learning, predictive analytics, NLP, computer vision, and automation for enhanced business performance and user experience."
+        />
+        <link rel="canonical" href="https://greatodeal.com/solutions/saasplatform" />
 
-      {/* Open Graph / Facebook / LinkedIn */}
-      <meta property="og:title" content="SaaS & AI-Powered Platform Development | Greatodeal" />
-      <meta
-        property="og:description"
-        content="Transform your business with Greatodeal's SaaS and AI solutions. Build scalable platforms with machine learning, NLP, computer vision, predictive analytics, and intelligent automation."
-      />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://greatodeal.com/solutions/saasplatform" />
-      <meta property="og:image" content="https://greatodeal.com/public/images/saas.png" />
-      <meta property="og:image:alt" content="SaaS & AI-Powered Platforms by Greatodeal" />
+        {/* Open Graph / Facebook / LinkedIn */}
+        <meta property="og:title" content="SaaS & AI-Powered Platform Development | Greatodeal" />
+        <meta
+          property="og:description"
+          content="Transform your business with Greatodeal's SaaS and AI solutions. Build scalable platforms with machine learning, NLP, computer vision, predictive analytics, and intelligent automation."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://greatodeal.com/solutions/saasplatform" />
+        <meta property="og:image" content="https://greatodeal.com/images/saas.png" />
+        <meta property="og:image:alt" content="SaaS & AI-Powered Platforms by Greatodeal" />
 
-      {/* Twitter Card */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="SaaS & AI-Powered Platform Development | Greatodeal" />
-      <meta
-        name="twitter:description"
-        content="Greatodeal provides SaaS & AI-powered platforms that scale effortlessly. Leverage AI, machine learning, automation, and predictive analytics for smarter operations and superior user experiences."
-      />
-      <meta name="twitter:image" content="https://greatodeal.com/public/images/saas.png" />
-      <meta name="twitter:image:alt" content="SaaS & AI-Powered Platforms by Greatodeal" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="SaaS & AI-Powered Platform Development | Greatodeal" />
+        <meta
+          name="twitter:description"
+          content="Greatodeal provides SaaS & AI-powered platforms that scale effortlessly. Leverage AI, machine learning, automation, and predictive analytics for smarter operations and superior user experiences."
+        />
+        <meta name="twitter:image" content="https://greatodeal.com/images/saas.png" />
+        <meta name="twitter:image:alt" content="SaaS & AI-Powered Platforms by Greatodeal" />
 
-      {/* Structured Data (JSON-LD) */}
-      <script type="application/ld+json">
-        {`
+        {/* Structured Data (JSON-LD) */}
+        <script type="application/ld+json">
+          {`
           {
             "@context": "https://schema.org",
             "@type": "Service",
             "name": "SaaS & AI-Powered Platform Development",
             "url": "https://greatodeal.com/solutions/saasplatform",
-            "image": "https://greatodeal.com/public/images/saas.png",
+            "image": "https://greatodeal.com/images/saas.png",
             "description": "Greatodeal builds scalable SaaS and AI-powered platforms using machine learning, NLP, predictive analytics, computer vision, and automation to deliver intelligent solutions and exceptional user experiences.",
             "provider": {
               "@type": "Organization",
               "name": "Greatodeal",
               "url": "https://greatodeal.com",
-              "logo": "https://greatodeal.com/public/images/saas.png"
+              "logo": "https://greatodeal.com/images/saas.png"
             }
           }
         `}
-      </script>
-    </Helmet>
+        </script>
+      </Helmet>
+
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#121212] via-[#1E1E1E] to-[#121212]">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiM2RUU3QjciIGZpbGwtb3BhY2l0eT0iMC4wNSI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMSIvPjwvZz48L2c+PC9zdmc+')]"></div>
         
@@ -322,7 +323,7 @@ We help businesses turn ideas into powerful SaaS and AI platforms that scale eff
               <div className="relative w-full max-w-md sm:max-w-lg lg:max-w-full h-[300px] sm:h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
                <img
                   className="w-full h-full object-cover"
-                  src='../public/images/saas.png'
+                  src='/images/saas.png'
                       poster="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=600&fit=crop"
                 />
                  
