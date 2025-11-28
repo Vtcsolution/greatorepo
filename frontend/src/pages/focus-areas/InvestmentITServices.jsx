@@ -231,11 +231,11 @@ const InvestmentItservices = () => {
   />
   <meta property="og:type" content="video.other" />
   <meta property="og:url" content="https://greatodeal.com/focus-areas/investment" />
-  <meta property="og:video" content="https://greatodeal.com/public/images/investments.mp4" />
+  <meta property="og:video" content="https://greatodeal.com/images/investments.mp4" />
   <meta property="og:video:type" content="video/mp4" />
   <meta property="og:video:width" content="1280" />
   <meta property="og:video:height" content="720" />
-  <meta property="og:image" content="https://greatodeal.com/public/images/investments.jpg" />
+  <meta property="og:image" content="https://greatodeal.com/images/investments.jpg" />
   <meta property="og:image:alt" content="Investment IT Services & Financial Solutions - Greatodeal" />
 
   {/* Twitter Card */}
@@ -245,7 +245,7 @@ const InvestmentItservices = () => {
     name="twitter:description"
     content="Advanced IT services for investment firms: trading platforms, portfolio systems, AI analytics, compliance tools, and wealth management software."
   />
-  <meta name="twitter:player" content="https://greatodeal.com/public/images/investments.mp4" />
+  <meta name="twitter:player" content="https://greatodeal.com/images/investments.mp4" />
   <meta name="twitter:player:width" content="1280" />
   <meta name="twitter:player:height" content="720" />
 
@@ -257,13 +257,13 @@ const InvestmentItservices = () => {
         "@type": "FinancialService",
         "name": "Investment IT Services & Financial Software Solutions",
         "url": "https://greatodeal.com/focus-areas/investment",
-        "image": "https://greatodeal.com/public/images/investments.jpg",
+        "image": "https://greatodeal.com/images/investments.jpg",
         "description": "Greatodeal provides investment software solutions including portfolio management, trading platforms, AI analytics, compliance systems, and wealth management technology.",
         "provider": {
           "@type": "Organization",
           "name": "Greatodeal",
           "url": "https://greatodeal.com",
-          "logo": "https://greatodeal.com/public/images/investments.jpg",
+          "logo": "https://greatodeal.com/images/investments.jpg",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Shadman 2, Gulberg",
@@ -287,9 +287,9 @@ const InvestmentItservices = () => {
         "video": {
           "@type": "VideoObject",
           "name": "Investment Technology Overview",
-          "contentUrl": "https://greatodeal.com/public/images/investments.mp4",
+          "contentUrl": "https://greatodeal.com/images/investments.mp4",
           "uploadDate": "2024-01-01",
-          "thumbnailUrl": "https://greatodeal.com/public/images/investments.jpg",
+          "thumbnailUrl": "https://greatodeal.com/images/investments.jpg",
           "description": "A video showcasing Greatodeal's Investment IT and FinTech capabilities."
         }
       }
@@ -339,7 +339,7 @@ const InvestmentItservices = () => {
                   muted
                   playsInline
                   className="w-full h-full object-cover"
-                  src='../public/images/investments.mp4'
+                  src='/images/investments.mp4'
                   poster="https://images.unsplash.com/photo-1642085030944-58c7f4ebec13?w=600&h=600&fit=crop"
                 >
                   Your browser does not support the video tag.
