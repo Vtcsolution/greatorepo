@@ -235,7 +235,7 @@ const OilGasItservices = () => {
   />
   <meta
     property="og:image"
-    content="https://greatodeal.com/public/images/Oilgas.png"
+    content="https://greatodeal.com/images/Oilgas.png"
   />
   <meta property="og:url" content="https://greatodeal.com/focus-areas/oil-gas" />
   <meta property="og:type" content="website" />
@@ -252,7 +252,7 @@ const OilGasItservices = () => {
   />
   <meta
     name="twitter:image"
-    content="https://greatodeal.com/public/images/Oilgas.png"
+    content="https://greatodeal.com/images/Oilgas.png"
   />
 
   {/* JSON-LD Structured Data */}
@@ -270,10 +270,10 @@ const OilGasItservices = () => {
         "url": "https://greatodeal.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://greatodeal.com/public/logo.png"
+          "url": "https://greatodeal.com/logo.png"
         }
       },
-      "image": "https://greatodeal.com/public/images/Oilgas.png"
+      "image": "https://greatodeal.com/images/Oilgas.png"
     }
     `}
   </script>
@@ -316,7 +316,7 @@ const OilGasItservices = () => {
               <div className="relative w-full max-w-md sm:max-w-lg lg:max-w-full h-[300px] sm:h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
                  <img
                   className="w-full h-full object-cover"
-                  src='../public/images/Oilgas.png'
+                  src='/images/Oilgas.png'
                   poster="https://images.unsplash.com/photo-1546629796-8c484bb096e9?w=600&h=600&fit=crop"
                 />
                 
