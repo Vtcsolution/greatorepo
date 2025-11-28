@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import { ChevronRight, ChevronLeft, Search, BarChart3, Settings, Palette, Database, Code, GitBranch, Monitor, Database as DbIcon, Cloud, ArrowRight, CheckCircle, Users, Target, Zap, Shield, Clock, Layers } from 'lucide-react';
-import webapps from '../../assets/images/Services/website_design.mp4'
 import { Helmet } from 'react-helmet-async';
 
 const WebApplicationDevelopment = () => {
@@ -266,7 +265,7 @@ const WebApplicationDevelopment = () => {
   />
   <meta
     property="og:image"
-    content="https://greatodeal.com/public/images/webapps.png"
+    content="https://greatodeal.com/images/webapps.png"
   />
   <meta
     property="og:url"
@@ -286,7 +285,7 @@ const WebApplicationDevelopment = () => {
   />
   <meta
     name="twitter:image"
-    content="https://greatodeal.com/public/images/webapps.png"
+    content="https://greatodeal.com/images/webapps.png"
   />
 
   {/* Additional SEO Tags */}
@@ -340,7 +339,7 @@ We design and develop robust, scalable web applications that combine modern tech
                   muted
                   playsInline
                   className="w-full h-full object-cover"
-                  src={webapps}
+                  src="/images/website_design.mp4"
                   poster="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=600&fit=crop"
                 >
                   Your browser does not support the video tag.
@@ -524,7 +523,7 @@ We design and develop robust, scalable web applications that combine modern tech
             {/* Main Image - Right Column */}
             <div className="relative order-first lg:order-last">
               <img
-                src="../public/images/webapps.png"
+                src="/images/webapps.png"
                 alt="Team developing web application"
                 className="rounded-2xl shadow-2xl w-full h-[400px] sm:h-[500px] lg:h-[600px] object-cover"
               />
