@@ -366,7 +366,7 @@ const HowWeWork = () => {
       />
       <meta property="og:url" content="https://greatodeal.com/howwork" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://greatodeal.com/public/images/howwork.png" />
+      <meta property="og:image" content="https://greatodeal.com/images/howwork.png" />
       <meta property="og:image:alt" content="How Greatodeal Works - 8 Step Development Process" />
 
       {/* Twitter Card */}
@@ -376,7 +376,7 @@ const HowWeWork = () => {
         name="twitter:description"
         content="Follow Greatodeal's 8-step methodology to deliver innovative and scalable software, apps, and AI SaaS solutions for businesses worldwide."
       />
-      <meta name="twitter:image" content="https://greatodeal.com/public/images/howwork.png" />
+      <meta name="twitter:image" content="https://greatodeal.com/images/howwork.png" />
       <meta name="twitter:image:alt" content="How Greatodeal Works - 8 Step Development Process" />
 
       {/* Optional: Robots */}
@@ -487,7 +487,7 @@ const HowWeWork = () => {
              <div className="relative w-full max-w-lg lg:max-w-full h-[400px] sm:h-[500px] lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl border-4 border-[#6EE7B7]/20">
   <img
     className="w-full h-full object-cover"
-    src="/public/images/howwork.png"
+    src="/images/howwork.png"
     alt="How It Works"
   />
 </div>
